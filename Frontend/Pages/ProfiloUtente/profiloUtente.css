@@ -1,0 +1,84 @@
+#divisore-info-prenotazioni{
+    display: flex;
+    justify-items: center;
+    gap: 0.8vw;
+}
+
+
+
+#mainContainerProfilo{
+    margin-left: auto;     /*sposta tutto a sinistra la listra delle prenotazioni*/
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 3vw;
+    padding: 3%;
+}
+
+#containerPrenotazioniProfilo{
+    padding: 2%;
+}
+
+
+#box-prenotazioni{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#img-prenotazione{
+    border-radius: 10px;
+}
+
+#headerPrenotazioniProfilo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#box-infoUser{
+    background-color: white;
+    color: black;
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 200px;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    position: sticky;
+    top: 250px;  /* distanza dal top durante lo scroll */
+    align-self: flex-start; /* se è in un container flex */
+    
+}
+
+#descrizioneUser{
+    margin-top: 20px;
+}
+
+#linea-centrale{
+    height: 600px;        
+    border-right: 3px solid rgb(0, 6, 66);
+    margin-left: 100px;         
+    margin-right: 20px;  
+    margin-top: 20px;
+
+
+    position: sticky;
+    top: 60px;  /* distanza dal top durante lo scroll */
+    align-self: flex-start; /* se è in un container flex */
+}
+
+#info-utente{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
